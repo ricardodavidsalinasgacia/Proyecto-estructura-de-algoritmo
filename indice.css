@@ -1,0 +1,17 @@
+.text{
+    color: rgb(255, 255, 255);
+}
+
+
+#titulo{
+    color: rgb(255, 255, 255);
+} 
+/* Grid container for cards */
+.parent {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
+	}
+/* Fin Grid container for cards */
